@@ -35,4 +35,8 @@ public class Achat extends RealmObject {
     public void setDate(Date date) {
         this.date = date;
     }
+
+    public void addProduct(Product produit) {
+        this.products.add(produit);
+    }
 }
