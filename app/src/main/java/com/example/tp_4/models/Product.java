@@ -11,4 +11,8 @@ public class Product extends RealmObject {
     public String p_intitule;
     private float p_prix;
     private int id_image;
+
+    public long getId() {
+        return id;
+    }
 }
