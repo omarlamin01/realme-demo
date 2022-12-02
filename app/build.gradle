@@ -9,6 +9,8 @@ apply plugin: "realm-android"
 android {
     namespace 'com.example.tp_4'
     compileSdk 32
+    compileSdkVersion 32
+    buildToolsVersion "23.0.1"
 
     defaultConfig {
         applicationId "com.example.tp_4"
@@ -48,9 +50,6 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
-
-    // Lombok
-    annotationProcessor 'org.projectlombok:lombok:1.18.24'
     // realm
     implementation 'io.realm:realm-gradle-plugin:10.12.0'
 }
